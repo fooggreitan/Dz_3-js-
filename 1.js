@@ -5,7 +5,7 @@ function temperature()
     alert(`Цельсия: ${a}, Фаренгейт: ${b}`)
 
     const translationInFahrenheit = (9/5) * a + 32;
-    alert(`Перевод градусов Цельсия в градусы Фаренгейта = ${Math.round(translationInFahrenheit)}`)
+    alert(`Перевод градусов Цельсия в градусы Фаренгейта = ${translationInFahrenheit.toFixed(2)}`)
 }
 
 temperature()
